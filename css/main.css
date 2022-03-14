@@ -57,14 +57,14 @@
       height: 250px;
       background: center/100% url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #139cf7; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-in-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #139cf7; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-in-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #139cf7; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -131,7 +131,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bd-img {
-    background: url(../img/background.JPG);
+    background: center/100% url(../img/background.JPG);
     background-attachment: fixed;
     background-size: cover; }
     body#bd-img:after {
@@ -151,8 +151,7 @@ h1, h2, h3 {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    padding: 0.2rem 1rem; }
 
 a {
   color: white;
@@ -164,7 +163,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #139cf7; }
 
 main {
   padding: 4rem;
@@ -174,7 +173,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #139cf7;
         transition: all 0.5s ease-in-out; }
   main#home {
     overflow: hidden; }
